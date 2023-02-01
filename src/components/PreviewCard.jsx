@@ -2,7 +2,7 @@ import parfumeMobile from '../img/parfume-mobile.jpg';
 import { HiOutlineShoppingCart } from 'react-icons/hi';
 
 export default function PreviewCard() {
-
+  
   return (
     <main className='preview-card'>
       <div className='item-img'></div>

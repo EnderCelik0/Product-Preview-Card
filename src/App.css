@@ -114,22 +114,21 @@
     border-bottom-left-radius: 10px;
   }
 
-
   .item-descriptions {
     background-color: #fff;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
 
-  .item-header{
-    padding-right:20px ;
-  }
-
-  .item-description{
+  .item-header {
     padding-right: 20px;
   }
 
-  .item-title{
+  .item-description {
+    padding-right: 20px;
+  }
+
+  .item-title {
     margin-bottom: 20px;
   }
 }
