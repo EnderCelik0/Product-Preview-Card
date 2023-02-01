@@ -1,9 +1,7 @@
 import parfumeMobile from '../img/parfume-mobile.jpg';
 import { HiOutlineShoppingCart } from 'react-icons/hi';
-import { useMediaPredicate } from 'react-media-hook';
 
 export default function PreviewCard() {
-  const imageUrl = window.innerWidth >= 1440 ? parfumeMobile : parfumeDesktop;
 
   return (
     <main className='preview-card'>
