@@ -33,7 +33,7 @@ DESKTOP<br>
 
 ### Links
 
-- Solution URL: [Add solution URL here]
+- Solution URL: [https://www.frontendmentor.io/solutions/preview-card-using-reactvitereacticonscss-flexbox-uRsSOeLFvP]
 - Live Site URL: [https://reliable-chebakia-dd5d0c.netlify.app]
 
 
