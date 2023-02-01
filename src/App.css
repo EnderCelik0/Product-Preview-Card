@@ -20,6 +20,10 @@
 .item-img {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+  background-image: url('./img/parfume-mobile.jpg');
+  height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .item-descriptions {
@@ -82,16 +86,50 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .btn-add-cart:hover {
   background-color: hsl(212, 21%, 14%);
 }
 
-.shopping-cart-icon{
+.shopping-cart-icon {
   font-size: 20px;
   text-align: center;
   margin-right: 8px;
 }
 
+@media screen and (min-width: 1440px) {
+  .preview-card {
+    min-width: 650px;
+    height: 450px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .item-img {
+    background-image: url('./img/parfume-desktop.jpg');
+    width: 1080px;
+    background-position: center;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
 
+
+  .item-descriptions {
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .item-header{
+    padding-right:20px ;
+  }
+
+  .item-description{
+    padding-right: 20px;
+  }
+
+  .item-title{
+    margin-bottom: 20px;
+  }
+}
